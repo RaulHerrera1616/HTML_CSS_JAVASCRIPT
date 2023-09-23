@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <form action="/controlador-registro" method="post" class="form-registro" enctype="multipart/form-data"/>
+                <div>
+                    <label for="nombre"></label>
+                    <input name="nombre" type="text" placeholder="Nombre y apellido" required/>
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    <input name="mail" type="email" placeholder="pepito@honguito.com" required/>
+                </div>
+                <div>
+                    <label for="number"></label>
+                    <input name="number" type="number" placeholder="12345789" required/>
+                </div>
+                <div>
+                    <label for="contrasenia"></label>
+                    <input name="contraseniaa" type="password" placeholder="tu password" required/>
+                </div>
+                <div>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" name="femenino" value="f"/>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="masculino" value="m"/>
+                    <label for="other">Otro</label>
+                    <input type="radio" name="other" value="o"/>
+                </div>
+                <div>
+                    <label for="femenino">Femenino</label>
+                    <input type="checkbox" name="femenino" value="f"/>
+                    <label for="masculino">Masculino</label>
+                    <input type="checkbox" name="masculino" value="m"/>
+                    <label for="other">Otro</label>
+                    <input type="checkbox" name="other" value="o"/>
+                </div>
+                <div>
+                    <label for="pais">Pais de origen</label>
+                    <select name="pais">
+                        <option value="arg">ARG</option>
+                        <option value="chi">CHI</option>
+                        <option value="bra">BRA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date"></label>
+                    <input type="date" name="date"/>
+                </div>
+                <div>
+                    <label for="image"></label>
+                    <input type="file" name="image"/>
+                </div>
+                <button type="submit">Enviar info</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+p strong{
+    color: red;
+}
+.destacado{
+    color: orange;
+}
+#titulo{
+    color: darkcyan;
+}
+#subtitulo{
+    color: blue;
+}
+
+a {
+    color: red; /* Estilo predeterminado para el texto dentro de <a> */
+  }
+  a em {
+    color: blue; /* Hereda el color del elemento padre (<a>) */
+  }
+  .especial{
+    color: darkorchid;
+  }
+  table {
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    width: 30%; /* Ancho del 100% para ocupar todo el espacio disponible */
+  }
+  
+  caption {
+    font-weight: bold; /* Estilo para el título de la tabla */
+    margin-bottom: 10px; /* Espaciado inferior para separar del contenido */
+  }
+  
+  th {
+    background-color: white; /* Color de fondo para los encabezados de columna */
+    padding: 10px; /* Espaciado interno para separar el contenido */
+  }
+  thead .especial{
+    color: orange;
+  }
+  tfoot tr th{
+    color: red;
+  }
+  
+  tbody .especial {
+    color: orange /* Estilo para el texto en la clase especial */
+  }
+  
+  td, th {
+    border: 1px solid black; /* Borde de 1 píxel sólido para celdas */
+    padding: 10px; /* Espaciado interno para separar el contenido */
+  }
+  
+tbody tr td {
+    color: green;
+}
+tbody tr th{
+    color: red;
+}
+tbody tr td strong{
+    color: orange;
+}
+#adicional{
+    color: darkred;
+}
+#especial{
+    color: violet;
+}
+div p a {
+    color: green;
+}

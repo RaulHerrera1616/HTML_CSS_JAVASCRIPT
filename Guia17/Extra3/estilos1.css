@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: url('Imagen.jpg'); /* Ruta hacia la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: blue;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  main{
+    border: 1px solid red;
+  }

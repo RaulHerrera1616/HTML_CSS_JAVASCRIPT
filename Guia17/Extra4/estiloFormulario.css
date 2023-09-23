@@ -1,0 +1,59 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('descarga\ \(1\).jpg');
+      
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    select, input[type="radio"], input[type="password"] {
+      margin: 5px 0;
+    }
+
+    label {
+      margin-right: 10px;
+    }
+
+    input[type="radio"] {
+      vertical-align: middle;
+    }
+
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    div:last-child {
+      margin-bottom: 0;
+    }
+    label img {
+        width: 20px; /* Ajusta el tamaño de acuerdo a tus preferencias */
+        height: auto; /* Mantén la relación de aspecto */
+        vertical-align: middle; /* Alinea verticalmente con el texto */
+        margin-right: 5px; /* Margen derecho para separar la imagen del texto */
+      }
+
+    
+
+
+
+
+
+

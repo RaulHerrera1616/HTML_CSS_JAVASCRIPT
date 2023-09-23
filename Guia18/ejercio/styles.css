@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* Estilos para el logotipo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos del banner */
+.banner {
+    /* Estilos para el banner */
+}
+
+/* Estilos para la sección de productos */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Puedes ajustar el número de columnas aquí */
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+/* Estilos para la tarjeta de producto */
+.product-card {
+    /* Estilos para la tarjeta de producto */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

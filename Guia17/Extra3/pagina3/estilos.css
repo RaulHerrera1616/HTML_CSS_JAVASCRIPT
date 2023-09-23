@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    width: 30%;
+    border: 2px solid #333;
+    font-family: Arial, sans-serif;
+}
+
+.dolar-icon {
+    color: rgb(58, 194, 110);
+    font-size: 20px;
+}
+
+.euro-icon {
+    color: rgb(247, 247, 22);
+    font-size: 20px;
+}
+
+.libra-icon {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.yen-icon {
+    color: rgb(6, 94, 6);
+    font-size: 20px;
+}
+
+th {
+    border: 2px solid #333;
+    background-color: #f2f2f2
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+th[scope="row"]{
+    background-color: #E6F3FF;
+}
+tr:nth-child(even){
+    background-color: #FFFFCC;
+}

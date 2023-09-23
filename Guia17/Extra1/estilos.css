@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.iconos li::before {
+  content: "🌟";
+  margin-right: 5px;
+}
+.google-link {
+  text-decoration: none; /* Quita el subrayado predeterminado del enlace */
+  color: #000; /* Color del texto del enlace */
+}
+
+/* Estilo para el icono de Google */
+.fab.fa-google {
+  margin-right: 5px; /* Ajusta el espacio entre el icono y el texto */
+  font-size: 18px; /* Ajusta el tamaño del icono */
+  color: #4285F4; /* Color del icono de Google (puedes cambiarlo según tus preferencias) */
+}
+.fab.fab.fa-youtube{
+  color: red;
+}

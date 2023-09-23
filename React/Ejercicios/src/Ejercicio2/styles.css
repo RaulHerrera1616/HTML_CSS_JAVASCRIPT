@@ -1,0 +1,11 @@
+footer{
+    padding: 10%;
+    background-color: rgb(187, 187, 52);
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.bg-light {
+    background-color: black!important;
+}

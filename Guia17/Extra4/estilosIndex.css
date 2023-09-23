@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+    background-image: url('https://img.freepik.com/vector-gratis/circuitos-fondo-digital-degradado-azul-rojo_23-2148821701.jpg?w=2000');
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+/* Estilos para las tarjetas */
+.card,.card1,.card2,.card3 {
+    background-color: #fff;
+    padding: 11px;/*Distancia entre el texto y la caja*/
+    border-radius: 20px;/*El borde de la caja*/
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;/*Centrar el texto*/
+    max-width: 300px; /* Ancho máximo de la tarjeta */
+    margin: 1px;/*Margen de una caja a otra*/
+}
+
+.card img,.card1 img,.card2 img,.card3 img {
+    width: 100%;
+    max-height: 200px; /* Altura máxima de la imagen */
+    object-fit: cover; /* Ajustar la imagen para que cubra el contenedor */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3,.card1 h3,.card2 h3,.card3 h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.card p,.card1 p,.card2 p,.card3 p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón */
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #ff7700;
+}
+
+/* Estilos para enlaces dentro del botón */
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg-body-tertiary{
+    background-image: url('https://t3.ftcdn.net/jpg/01/62/83/40/360_F_162834038_B1gggmo3G2loVPTVlVSDfpEV5UkGwjRx.jpg'); 
+    background-size: 100% 100%;
+}

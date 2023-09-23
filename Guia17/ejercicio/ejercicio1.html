@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<body>
+    <h1>Jose Raúl Herrera</h1>
+    <br>
+    <img src="Daniel.jpeg" alt="Damniel Herrera">
+    <br>
+    <p>Esto es un <strong> párrafo </strong>nuevo</p>
+    <br>
+    <h3>Aptitudes Personales</h3>
+    <ul>
+        <li>Trabajo en equipo</li>
+        <li>Asrtividad</li>
+        <li>Escucha activa</li>
+    </ul>
+    <br>
+    <h3>Tecnologías</h3>
+    <ol type="1">
+        <li>JAVA</li>
+        <li>MYSQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <a href="https://www.facebook.com">Facebook</a>
+    <br>
+    <a href="https://www.linkedin.com/feed/">Ir a Linkedin</a>
+    <br>
+    <img src="descarga.jpg" alt="Iroman">
+    <br>
+    <a href="https://www.youtube.com"><img src="Youtube.png"></a>
+    <br>
+    <form>
+        <input type="text" name="nombre">
+        <br><br>
+        <input type="number">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="email">
+        <br><br>
+        <input type="password">
+        <br><br>
+        <input type="text" name="instituto" value="Egg Educación">
+        <br><br>
+        <input type="text" name="nombre " placeholder="Nombre del usuario">
+        <br><br>
+        <textarea name="comentario" rows="10" cols="40"></textarea>
+        <br><br>
+        <textarea name="comentario" rows="10" cols="40">Escribe tu comentario...</textarea>
+        <br><br>
+        <label>Nombre del Usuario</label>
+        <br>
+        <input type="text" name=nombre>
+        <br><br>
+        <label for="nombre">Nombre del Usuario</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <select name="estacion">
+            <option>Primavera</option>
+            <option>Verano</option>
+            <option>Otoño</option>
+            <option>Invierno</option>
+        </select>
+        <br><br>
+        <select name="estacion" size="3" multiple>
+            <option>Primavera</option>
+            <option>Verano</option>
+            <option>Otoño</option>
+            <option>Invierno</option>
+        </select>
+        <br><br>
+        <option selected>Otoño</option>
+        <br><br>
+        <input type="radio" name="estacion" value="1">Primavera
+        <br>
+        <input type="radio" name="estacion" value="2">Verano
+        <br>
+        <input type="radio" name="estacion" value="3">Otoño
+        <br>
+        <input type="radio" name="estacion" value="4">Invierno
+        <br><br><input type="radio" id="primavera" name="estacion" value="1">
+        <label for="primavera">primavera</label>
+        <br>
+        <input type="radio" id="verano" name="estacion" value="2">
+        <label for="verano">Verano</label>
+        <br>
+        <input type="radio" id="otonio" name="estacion" value="3">
+        <label for="otonio">Otoño</label>
+        <br>
+        <input type="radio" id="invierno" name="estacion" value="4">
+        <label for="invierno">Invierno</label>
+        <br><br>
+        <input type="checkbox" name="estacion" value="1">Primavera
+        <br>
+        <input type="checkbox" name="estacion" value="1">Verano
+        <br>
+        <input type="checkbox" name="estacion" value="1">Otoño
+        <br>
+        <input type="checkbox" name="estacion" value="1">Invierno
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+        <button type="reset">Borrar</button>
+        <br><br>
+        <button type="button">Borrar</button>
+        <br><br>
+        <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data">
+        </form>
+        <label>Nombre del usuario</label> <br>
+        <input type="text" name="nombre"> <br>
+        <label>Edad del usuario</label> <br>
+        <input type="number" name="edad "> <br>
+        <label>Fecha de nacimiento del usuario</label> <br>
+        <input type="date" name="Fechanac"><br>
+        <label>Sexo del usuario</label> <br>
+        <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+        <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+        <label>País nacimiento del usuario</label> <br>
+        <select name="pais">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    <div align="left">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <br>
+    <p>Yo estudio en <span style="color: yellow">Egg</span> Programación FullStack </p>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

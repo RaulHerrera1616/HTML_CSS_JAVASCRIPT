@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Hostinger Webmail</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0"><meta name="theme-color" content="#f4f4f4"><meta name="msapplication-navbutton-color" content="#f4f4f4">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KL4FQVG');</script>
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2318097,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<link rel="shortcut icon" href="./skins/hostinger/images/logo-icon.svg?s=1689923556">
+<link rel="stylesheet" href="skins/elastic/deps/bootstrap.min.css?s=1674504210">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="skins/hostinger/styles/styles.css?s=1689923961">
+<link rel="stylesheet" type="text/css" href="plugins/xskin/../xframework/assets/styles/elastic.css?s=1689923556"><link rel="stylesheet" type="text/css" href="plugins/jqueryui/themes/elastic/jquery-ui.min.css?s=1674504193"><script src="program/js/jquery.min.js?s=1674504197"></script><script src="program/js/common.min.js?s=1674504194"></script><script src="program/js/app.min.js?s=1674504194"></script><script src="program/js/jstz.min.js?s=1674504197"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"es_ES","devel_mode":null,"rcversion":10601,"cookie_domain":"","cookie_path":"/","cookie_secure":false,"dark_mode_support":true,"skin":"hostinger","blankpage":"skins/hostinger/watermark.html","refresh_interval":60,"session_lifetime":259200,"action":"","comm_path":"/?_task=login","compose_extwin":false,"xelastic":true,"dateFormats":{"php":"Y-m-d","moment":"YYYY-MM-DD","datepicker":"yy-mm-dd","flatpickr":"Y-m-d"},"dmFormats":{"php":"m-d","moment":"MM-DD","datepicker":"mm-dd","flatpickr":"m-d"},"timeFormats":{"php":"H:i","moment":"HH:mm","datepicker":"HH:mm","flatpickr":"H:i"},"timezoneOffset":0,"xsidebarVisible":true,"xassets":["../xframework/assets/bower_components/js-cookie/src/js.cookie.js","../xframework/assets/scripts/framework.min.js","../xframework/assets/styles/elastic.css","xskin:assets/scripts/xskin.min.js"],"installed_skins":["gmail_plus","hostinger","outlook_plus"],"date_format":"yy-mm-dd","date_format_localized":"AAAA-MM-DD","request_token":"5l5ZSoh0szsASHTx1b6lwnlN7FYJQxCl"});
+rcmail.add_label({"loading":"Cargando...","servererror":"¡Error del servidor!","connerror":"¡Error de conexión (fallo al intentar alcanzar el servidor)!","requesttimedout":"Ha expirado el tiempo de respuesta","refreshing":"Actualizando…","windowopenerror":"iLa ventana emergente fue bloqueada!","uploadingmany":"Cargando archivos…","uploading":"Cargando archivo...","close":"Cerrar","save":"Guardar","cancel":"Cancelar","alerttitle":"Atención","confirmationtitle":"Está seguro...","delete":"Eliminar","continue":"Continuar","ok":"OK","back":"Volver","errortitle":"¡Ha ocurrido un error!","options":"Opciones","plaintoggle":"Sólo texto","htmltoggle":"HTML","previous":"Anterior","next":"Siguiente","select":"Seleccionar","browse":"Navegar","choosefile":"Elegir el fichero...","choosefiles":"Elegir los ficheros..."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+<script src="plugins/xskin/../xframework/assets/bower_components/js-cookie/src/js.cookie.js?s=1689923556"></script><script src="plugins/xskin/../xframework/assets/scripts/framework.min.js?s=1689923556"></script><script src="plugins/xskin/assets/scripts/xskin.min.js?s=1689923556"></script><script src="plugins/jqueryui/js/jquery-ui.min.js?s=1674504193"></script><script src="plugins/jqueryui/js/i18n/datepicker-es.js?s=1674504193"></script>
+<style>element.style {
+}
+@media screen and (max-width: 768px)
+.main-section {
+    align-items: flex-start;
+}
+@media screen and (max-width: 768px)
+.main-section {
+    background: 0 0;
+}
+.main-section {
+    color: #1d1e20;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    background: url(../../hostinger/images/background.jpg) left center no-repeat fixed #f4f5ff;
+    background-size: contain;
+}
+.main-section, .redirect-button {
+    font-family: dm sans,sans-serif;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+hoja de estilo de user-agent
+section {
+    display: block;
+}
+.task-login #layout-content {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.popover, body, button, div.tox, div.tox :not(.svg), input, optgroup, select, textarea {
+    font-family: Roboto,sans-serif;
+}
+#layout>div>.header, #layout>div>.header a.button, body {
+    color: #2c363a;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    scrollbar-color: #c1c1c1 #f1f1f1;
+    font-size: 14px;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}</style>
+</head>
+<body class="xelastic task-login action-none">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL4FQVG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="layout">
+<h1 class="voice"> Iniciar sesión</h1>
+<div id="layout-content" class="selected no-navbar" role="main">
+<section class="main-section">
+<div class="login-section">
+<div class="login-wrapper">
+<img src="blob (1).jpg" data-src-small="0" id="logo" alt="Logo" />
+<h2 class="login-title">
+Hola, &#x1F44B<br>
+Bienvenido a Hostinger Webmail
+</h2>
+<form id="login-form" name="login-form" method="post" class="propform" action="/?_task=login">
+<input type="hidden" name="_token" value="5l5ZSoh0szsASHTx1b6lwnlN7FYJQxCl">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value=""><table><tbody><tr><td class="title"><label for="rcmloginuser">Nombre de usuario</label></td><td class="input"><input name="_user" id="rcmloginuser" required size="40" autocapitalize="off" autocomplete="off" value="" type="text"></td></tr><tr><td class="title"><label for="rcmloginpwd">Contraseña</label></td><td class="input"><input name="_pass" id="rcmloginpwd" required size="40" autocapitalize="off" autocomplete="off" type="password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">Iniciar sesión</button></p>
+<div id="login-footer" role="contentinfo">
+<a href="https://support.hostinger.com/en/articles/1583468-how-to-reset-my-webmail-password-on-hpanel" target="_blank" class="support-link">
+Olvidé mi contraseña
+</a>
+</div>
+</form>
+<div class="redirect-wrapper">
+<h2 class="redirect-title">
+¿No tienes una cuenta de correo electrónico?
+</h2>
+<p class="redirect-subtitle">
+Descubra el plan de correo electrónico perfecto para sus necesidades y eleve su comunicación.
+</p>
+<button id="redirect-button" class="redirect-button">Obtenga un plan de correo electrónico</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<noscript>
+	<p class="noscriptwarning">Advertencia: ¡Este servicio de webmail necesita Javascript! Para poder usarlo habilite el soporte de Javascript en su navegador, por favor.</p>
+</noscript>
+</div>
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+<script src="skins/elastic/deps/bootstrap.bundle.min.js?s=1674504210"></script>
+<script src="skins/elastic/ui.min.js?s=1674504194"></script>
+<script src="skins/hostinger/script.js?s=1689923556"></script>
+</body>
+</html>
